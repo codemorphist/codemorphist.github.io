@@ -1,0 +1,27 @@
+.morph-section {
+      white-space: pre-wrap;
+      position: absolute;
+      font-family: "Fira Code", monospace;
+      font-size: 18px;
+      color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .morph-section {
+    font-size: 16px;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .morph-section {
+    font-size: 14px;
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .morph-section {
+    font-size: 10px;
+  }
+}

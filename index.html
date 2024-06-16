@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODEMORPH</title>
-</head>
-<body>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>morph</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <menu class="header-menu">
+        <a href="/" class="menu-elem">#</a>
+        <a href="/" class="menu-elem">@</a>
+        <a href="/" class="menu-elem menu-logo">morph</a>
+        <a href="/" class="menu-elem">$</a>
+        <a href="/" class="menu-elem">&</a>
+      </menu>
+      <hr>
+    </header>
 
-        .info {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+    <main>
+      <pre class="morph-section"></pre>
+    </main>
 
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
 
-        body {
-            font-family: "Fira Code", monospace;
-        }
+    <footer>
+      <hr class="footer-hr">
+      <div class="footer">
+        <a href="https://github.com/codemorphist">(c) codemorphist</a>
+      </div>
+    </footer>
 
-        h1 {
-            font-size: 1wv;
-            font-weight: 400;
-            font-style: normal;
-        }
-    </style>
-        
-    <div class="info">
-        <h1>Hello World!</h1> 
-    </div>
-</body>
+  <script src="script.js"></script>
+  </body>
 </html>

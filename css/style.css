@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Jacquard+12&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  background: #000000;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  width: 100%;
+}
+
+/* HEADER SECTION */
+
+header {
+  /* Optional: Add styles for the header here */
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.menu-elem {
+  font-family: "Fira Code", monospace;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.menu-elem:hover {
+  color: #cccccc; 
+}
+
+.menu-logo {
+  font-family: "Jacquard 12", sans-serif;
+  font-weight: 200;
+  font-size: 64px;
+}
+
+@media screen and (max-width: 992px) {
+  .menu-elem {
+    font-size: 22px;
+  }
+
+  .menu-logo {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-elem {
+    font-size: 18px;
+  }
+
+  .menu-logo {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-menu {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .menu-elem {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .menu-logo {
+    font-size: 24px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header-menu {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .menu-elem {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .menu-logo {
+    font-size: 18px;
+    font-weight: 200;
+  }
+}
+
+/* MAIN SECTION */
+
+main {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-container {
+  font-size: 24px;
+  max-width: 65%;
+}
+
+@media screen and (max-width: 992px) {
+  .text-container {
+    font-size: 24px;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-container {
+    font-size: 18px;
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text-container {
+    font-size: 18px;
+    max-width: 100%;
+  }
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Fira Code", monospace;
+  font-size: 18px;
+
+  color: #cccccc;
+}
+
+.footer a {
+  color: #cccccc; 
+}
+
+.footer a:hover {
+  color: #ffffff; 
+}
+
+
+
